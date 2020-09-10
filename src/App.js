@@ -130,7 +130,7 @@ function App() {
       </form>
       <h1 style={{ color: "red" }}>{user.error}</h1>
       {user.success && (
-        <h1 style={{ color: "green" }}>User Added Successfully</h1>
+        <h1 style={{ color: "green" }}>User Added Successfully!</h1>
       )}
     </div>
   );
